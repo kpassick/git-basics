@@ -1,0 +1,119 @@
+/* HEADER STARTS */
+
+.container{
+    border-bottom: 2px #cbcac9 solid;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    border-bottom: 2px lightgray;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: 'Khula', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+    text-decoration: none;
+    display: inline;
+    color: gray;
+}
+
+.page-header-burger {
+    padding: 25px 0 10px 20px;
+    margin: 0;
+    float: left;
+}
+
+.page-header-logo {
+    max-width: 110%;
+    margin-left: 37%;
+    display: inline-block;
+}
+
+.page-header-qa {
+    float: right;
+    padding-top: 20px;
+}
+
+/* HEADER ICONS START */
+.fas {
+    padding: 5px 17px 5px 17px; 
+    margin: 0;
+}
+
+.fa-bars {
+    padding: 0;
+}
+/* HEADER ICONS END */
+/* HEADER ENDS */
+
+/*ACTIVATED TEXT START*/
+h1 a {
+    font-family: 'Khula', sans-serif;
+    font-weight: 800; 
+    text-align: center;  
+    font-size: 5.2rem;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+h1 a:hover {
+    color: rgb(190, 71, 29);
+    text-decoration: none;
+  }
+
+/*ACTIVATED TEXT END*/
+
+/*RESEARCHED JAVA FOR THIS*/
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides:hover {
+color: lightgrey;
+opacity: 30%;
+}
+
+
+.prev,
+.next {
+
+    transition: .1s ease;
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+
+
+/*JAVA END*/
