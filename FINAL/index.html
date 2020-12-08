@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/02378a9375.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;800&display=swap" rel="stylesheet">
+<script src="java.mjs"></script>
+<title>11.3 Make It Match</title>
+</head>
+
+<body>
+
+<!--header start-->
+<header class="page-header">
+    <div class="container">
+      <nav>
+        <ul>
+          <li class="page-header-burger"><a href="#!"><i class="fas fa-bars"></i></a></li>
+          <li class="page-header-burger"><a href="#!">MENU</a></li>
+          <li><a href="#!"><img class="page-header-logo" src="images/page-header-logo.png"></a></li>
+          <li class="page-header-qa"><a href="#!"><i class="fas fa-shopping-bag"></i></a></li>
+          <li class="page-header-qa"><a href="#!"><i class="fas fa-user-circle"></i></a></li>
+          <li class="page-header-qa"><a href="#!"><i class="fas fa-search"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+</header> 
+<!--header end-->
+
+<!--active text link start-->  
+<h1><a href="#!">DESIGN & FONTS</a></h1>
+<!--active text link end-->
+    
+<!-- I RESEARCHED JAVA FOR THIS. THE PAGE I WANTED TO RECREATE HAD AN AUTO CAROUSEL. I referenced a couple diffrent sites and layed out code acording to what my page needed. The java scrpt page was pre written and run on my page. 
+All images have been referenced to their original owner and can be linked back to their source files.-->
+<div class="slideshow-container">
+    <div class="slideshow-inner">
+      
+      <div class="mySlides fade">
+        <img src='https://assets.houseind.com/home_page_items/images/000/000/309/1600w/House33_Barstow_100__Serigraph.jpg?1606838399' style='width: 100%;' class="slide"/>
+      </div>
+      
+      <div class="mySlides fade">
+       <img src='https://assets.houseind.com/home_page_items/images/000/000/310/1600w/House33_Barstow_100__Goggles.jpg?1606838470' style='width: 100%;' class="slide"/>
+      </div>
+      
+      <div class="mySlides fade">
+        <img src='https://assets.houseind.com/home_page_items/images/000/000/272/1600w/Cooper_Movie_Still.jpg?1605800650' style='width: 100%;' class="slide"/>
+      </div>
+      
+      <div class="mySlides fade">
+        <img src='https://assets.houseind.com/home_page_items/images/000/000/225/1600w/back_in_stock_home_page.jpg?1598364938' style='width: 100%;' class="slide"/>
+      </div>
+      
+     </div>
+  </div>
+
+    <div style='text-align: center;'>
+        <span class="dot" onclick='currentSlide(1)'></span>
+        <span class="dot" onclick='currentSlide(2)'></span>
+        <span class="dot" onclick='currentSlide(3)'></span>
+        <span class="dot" onclick='currentSlide(4)'></span>
+    </div>  
+</div>
+<!-- JAVA ENDED-->
+
+<!--GRID ONE START-->
+<div class="grid-one">
+
+  <div class="item1">
+    <h1><a href="#!">OBJECTS<br>SHOP</a></h1>
+  </div>
+
+  <div class="item2">
+    <a href="#!"><img src="https://assets.houseind.com/home_page_items/images/000/000/070/400w/lettering_manual.jpg?1581523996"></a>
+  </div>
+
+  <div class="item3">
+    <a href="#!"><img src="https://assets.houseind.com/home_page_items/images/000/000/025/400w/process_book_flat.jpg?1581524193"></a>
+  </div>
+
+</div>
+<!--GRID ONE END-->
+
+      <img class="active-link" src="https://assets.houseind.com/home_page_items/images/000/000/071/1600w/Cooper_Nouveau_Fonts_Home.jpg?1605104983">
+    
+            <!--GRID TWO START-->
+<div class="grid-two">
+
+  <div class="item6">
+    <h1><a href="#!">BROWSE<br>FONTS</a></h1>
+  </div>
+
+  <div class="item5">
+    <img src="https://assets.houseind.com/home_page_items/images/000/000/078/400w/Municipal___thumbnail.jpg?1596736478">
+  </div>
+
+  <div class="item4">
+    <img src="https://assets.houseind.com/home_page_items/images/000/000/074/400w/santa_towel_home.jpg?1607013800">
+  </div>
+
+</div>
+<!--GRID TWO END-->
+
+<!--CONTACT FORM START-->
+<h2>WHAT'S UP AT HOUSE?</h2>
+       <div class="footer">
+          <form action="action_page.php">
+      
+            <input type="text" id="first-name" placeholder="FIRST NAME">
+            <input type="text" id="last-name" placeholder="LAST NAME">
+<br>
+            <input type="text" id="email" placeholder="ENTER YOUR EMAIL!">
+            <input type="text" id="zipcode" placeholder="ZIP CODE">
+<br>
+            <select id="IM A..." name="IM A..." placeholder="I'M A...">
+              <option value="I'M A...">I'M A...</option>
+              <option value="cool-dude">COOL DUDE</option>
+              <option value="super-cool-dude">SUPER-COOL-DUDE</option>
+            </select>
+
+            <input type="submit" value="Submit">
+    
+          </form>
+      </div>
+<h3>STAY UP TO DATE ON NEW RELEASES, PRODUCTS AND EVENTS</h3>
+<!--CONTACT FORM END-->
+
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+/* HEADER STARTS */
+
+.container{
+    border-bottom: 2px #cbcac9 solid;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    border-bottom: 2px lightgray;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: 'Khula', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: left;
+    text-decoration: none;
+    display: inline;
+    color: gray;
+}
+
+.page-header-burger {
+    padding: 25px 0 10px 20px;
+    margin: 0;
+    float: left;
+}
+
+.page-header-logo {
+    max-width: 110%;
+    margin-left: 37%;
+    display: inline-block;
+}
+
+.page-header-qa {
+    float: right;
+    padding-top: 20px;
+}
+
+/* HEADER ICONS START */
+.fas {
+    padding: 5px 17px 5px 17px; 
+    margin: 0;
+}
+
+.fa-bars {
+    padding: 0;
+}
+/* HEADER ICONS END */
+/* HEADER ENDS */
+
+/*ACTIVATED TEXT START*/
+h1 a {
+    font-family: 'Khula', sans-serif;
+    font-weight: 800; 
+    text-align: center;  
+    font-size: 5.2rem;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+h1 a:hover {
+    color: rgb(190, 71, 29);
+    text-decoration: none;
+}
+/*ACTIVATED TEXT END*/
+
+/*RESEARCHED JAVA FOR THIS. I have used the CSS to change it for my own needs for javascript carousel funtion.*/
+.slideshow-container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides:hover {
+color: lightgrey;
+opacity: 30%;
+}
+
+.prev,
+.next {
+
+    transition: .1s ease;
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+/*JAVA END*/
+
+/* GRID ONE START */
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px #cbcac9 solid;
+    margin: 0;
+    max-height: 479px;
+}
+
+.item1 {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    grid-column: 3;
+    grid-row: 1;
+    border-left: 2px #cbcac9 solid;
+    border-right: 2px #cbcac9 solid;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.item2:hover {
+    color: lightgrey;
+    opacity: 30%;
+}
+
+.item3 {
+    grid-column: 4;
+    grid-row: 1;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.item3:hover {
+    color: lightgrey;
+    opacity: 30%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+}
+/* GRID ONE END */
+
+/*img  link start*/
+.active-link {
+    max-width: 100%;
+}
+
+.active-link:hover {
+    color: lightgrey;
+    opacity: 30%;
+}
+/*img  link ends*/
+
+
+/* GRID TWO START */
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px #cbcac9 solid;
+    margin: 0;
+    max-height: 479px;
+}
+
+.item6 {
+    grid-column: 3 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5 {
+    grid-column: 2;
+    grid-row: 1;
+    border-left: 2px #cbcac9 solid;
+    border-right: 2px #cbcac9 solid;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.item5:hover {
+    color: lightgrey;
+    opacity: 30%;
+}
+
+.item4 {
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.item4:hover {
+    color: lightgrey;
+    opacity: 30%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+}
+/* GRID TWO END */
+
+/* CONTACT FORM START */
+input, select {
+    max-width: 100%;
+    display: inline-block;
+    padding: 10px;
+    padding-right: 100px;
+    border: solid lightgrey;
+    box-sizing: border-box; 
+    margin: 5px;
+    align-items: center;
+    font-family: 'Khula', sans-serif;
+    font-size: 1rem;
+}
+  
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-right: 198px;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: rgb(190, 71, 29);
+  }
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-weight: 500;
+    color: slategray;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-weight: 800;
+    color: rgb(190, 71, 29);
+}
+/* CONTACT FORM END */
